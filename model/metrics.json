@@ -1,0 +1,26 @@
+{
+  "model_a": {
+    "akurasi_latih": 0.9711,
+    "akurasi_uji": 0.8186,
+    "auc": 0.7708,
+    "daun": 4065
+  },
+  "model_b": {
+    "akurasi_latih": 0.8456,
+    "akurasi_uji": 0.8405,
+    "auc": 0.8615,
+    "daun": 15
+  },
+  "importance": {
+    "marital.status": 0.4915,
+    "education.num": 0.2474,
+    "capital.gain": 0.23,
+    "capital.loss": 0.0278,
+    "age": 0.0032,
+    "occupation": 0.0001,
+    "hours.per.week": 0.0,
+    "workclass": 0.0
+  },
+  "n_latih": 22775,
+  "n_uji": 9762
+}

@@ -1,0 +1,93 @@
+{
+  "features": [
+    "age",
+    "education.num",
+    "capital.gain",
+    "capital.loss",
+    "hours.per.week",
+    "workclass",
+    "marital.status",
+    "occupation"
+  ],
+  "b_depth": 4,
+  "categories": {
+    "workclass": [
+      "Federal-gov",
+      "Local-gov",
+      "Never-worked",
+      "Private",
+      "Self-emp-inc",
+      "Self-emp-not-inc",
+      "State-gov",
+      "Without-pay",
+      "Unknown"
+    ],
+    "occupation": [
+      "Adm-clerical",
+      "Armed-Forces",
+      "Craft-repair",
+      "Exec-managerial",
+      "Farming-fishing",
+      "Handlers-cleaners",
+      "Machine-op-inspct",
+      "Other-service",
+      "Priv-house-serv",
+      "Prof-specialty",
+      "Protective-serv",
+      "Sales",
+      "Tech-support",
+      "Transport-moving",
+      "Unknown"
+    ],
+    "marital.status": [
+      "Divorced",
+      "Married-AF-spouse",
+      "Married-civ-spouse",
+      "Married-spouse-absent",
+      "Never-married",
+      "Separated",
+      "Widowed"
+    ]
+  },
+  "education_map": {
+    "1": "Preschool",
+    "2": "1st-4th",
+    "3": "5th-6th",
+    "4": "7th-8th",
+    "5": "9th",
+    "6": "10th",
+    "7": "11th",
+    "8": "12th",
+    "9": "HS-grad",
+    "10": "Some-college",
+    "11": "Assoc-voc",
+    "12": "Assoc-acdm",
+    "13": "Bachelors",
+    "14": "Masters",
+    "15": "Prof-school",
+    "16": "Doctorate"
+  },
+  "ranges": {
+    "age": [
+      17.0,
+      90.0
+    ],
+    "education.num": [
+      1.0,
+      16.0
+    ],
+    "capital.gain": [
+      0.0,
+      99999.0
+    ],
+    "capital.loss": [
+      0.0,
+      4356.0
+    ],
+    "hours.per.week": [
+      1.0,
+      99.0
+    ]
+  },
+  "random_state": 42
+}
